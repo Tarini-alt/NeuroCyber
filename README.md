@@ -7,5 +7,5 @@ The web page created using HTML, CSS and Javascript integrated web3forms to hand
 ![image alt](https://github.com/Tarini-alt/NeuroCyber/blob/cbeb191826d0e57369b978d1bd6c92090b75cad4/Screenshot%20(392).png)
 ![image alt](https://github.com/Tarini-alt/NeuroCyber/blob/bda05da0cfddb527447dc9becb5dc25dd3475fc7/Screenshot%20(393).png)
 ![image alt](https://github.com/Tarini-alt/NeuroCyber/blob/df45365f772bd4b6263b108e6017f41442af54e9/Screenshot%20(394).png)
-
+![image alt](https://github.com/Tarini-alt/NeuroCyber/blob/64fa50d0aa8ed76c33656bbce87b5a8363f0f226/Screenshot%20(395).png)
 
