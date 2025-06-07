@@ -1,0 +1,846 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f0f5f9;
+    font-family:Arial, sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+body .footer{
+    background: #221462;
+    color: #fff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: 10px;
+    padding: 60px 0 30px;
+}
+.main{ /*home page*/
+    width: 100%;
+    background: linear-gradient(to top, rgba(116, 111, 181, 0.5)50%, rgba(116, 111, 181, 0.5)50%), url(AI-and-neuroscience.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.psychology{/*psychology page*/
+    width: 100%;
+    background: linear-gradient(to top, rgba(116, 111, 181, 0.5)50%, rgba(116, 111, 181, 0.5)50%), url(psychology-hero-1600x900.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;  
+}
+
+.bannerT{/*Therapy page*/
+    width: 100%;
+    background: linear-gradient(to top, rgba(116, 111, 181, 0.5)50%, rgba(116, 111, 181, 0.5)50%), url(Look-Therapist.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;  
+}
+/*.cover{/*Contact page
+    width: 100%;
+    background: linear-gradient(to top, rgba(116, 111, 181, 0.5)50%, rgba(116, 111, 181, 0.5)50%), url(background.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}*/
+
+.mind{/*mindfulness page*/
+    width: 100%;
+    background: linear-gradient(to top, rgba(116, 111, 181, 0.5)50%, rgba(116, 111, 181, 0.5)50%), url(meditation-mindfulness.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;  
+}
+.team{/*Our Team page*/
+    width: 100%;
+    background: linear-gradient(to top, rgba(116, 111, 181, 0.5)50%, rgba(116, 111, 181, 0.5)50%), url(we-can-all-succeed2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;  
+}
+.about{/*about page*/
+        width: 100%;
+        background: linear-gradient(to top, rgba(116, 111, 181, 0.5)50%, rgba(116, 111, 181, 0.5)50%), url(1_GK5EE83m4xYOgp_oof8QLg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;  
+}
+
+.social-icons:hover{
+    color: rgb(5, 129, 230);
+}
+header {
+    background-color:rgb(3, 4, 55);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+}
+header h1 {
+    font-size:5em;
+    margin: 0;
+}
+nav ul {
+    list-style:none; 
+    margin: 15px;
+    margin-left: 400px;
+}
+nav li {
+    display: inline;
+    margin-right: 40px;
+    font-weight: bold;
+    margin : 20px;
+}
+nav a {
+    text-decoration:none;
+    color: rgb(253, 253, 253);
+}
+
+.logo {
+    width: 220px;
+    position:absolute;
+    top: 2%;
+    right: 80%;
+}
+section#head1 {
+    color: #fcf7f7;
+    text-align:center;
+    padding: 200px 0;
+    font-size: 20px;
+}
+
+section#hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: right;
+}
+section#hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin-top: 10px;
+    text-align:center;
+    display:inline-block;
+    padding: 10px 20px;
+    background-color:#26248f;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn:hover {
+    background-color: #bce3f6;
+}
+ul li a:hover{
+    color: rgb(5, 129, 230);
+}
+
+/*--Features--*/
+#feature {
+    width: 100%;
+    padding: 50px 0;
+}
+.title-text {
+    text-align: center;
+    padding: 50px;
+    color: #221462;
+}
+.title-text p {
+    margin: auto;
+    font-size: 20px;
+    color: #52a4db;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: justify;  
+    padding-right:50px;
+}
+.title-text h1 {
+    margin: auto;
+    font-size: 40px;
+}
+.feature-box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.features {
+    flex-basis: 40%;
+}
+.features-img {
+    flex-basis: 55%;
+    margin: auto;
+}
+.features-img img {
+    width: 90%;
+    border-radius: 14px;
+}
+.features h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #45419c;
+}
+.faeatures-desc {
+    display: flex;
+    align-items:baseline;
+    margin-bottom: 40px;
+    
+}
+.feature-text p{
+text-align: justify;
+}
+
+/*Testimonial*/
+
+#testimonial {
+    width: 100%;
+    padding: 70px 0;
+}
+.testimonial-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.testimonial-col {
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 30px #00968814;
+    cursor: pointer;
+    transition: transform 2s;
+}
+.testimonial-col p{
+    font-size: 15px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.user img {
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.user-info small{
+    color: #389de0;
+    font-weight:700;   
+}
+.testimonial-col:hover {
+    transform:translateY(-15px);
+}
+
+/*--footer--*/
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.fooetr-ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.fooetr-ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+}
+.form input{
+    width: 100%;
+    background: white;
+    border-radius: 15px;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+.fbtn{
+    margin-top: 10px;
+    text-align:center;
+    display:inline-block;
+    padding: 10px 20px;
+    background-color: #26248f;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 15px;
+}
+.fbtn:hover {
+    background-color: #bce3f6;
+}
+
+.flogo{
+    width: 80px;
+    margin: 20px;   
+}
+
+.fh1 {
+    color: #ffffff;
+    padding-top: 5px 5px;
+    text-align: left;
+    font-size: 30px;
+}
+.fh1 p{
+    text-align: justify;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin:20px auto;
+}
+
+.copyright{
+    text-align: center;
+}
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+.social-icons .fa-brands{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background: #fff;
+    color: #26248f;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.social-icons .fa-brands:hover{
+    background-color: #5755ca;
+}
+
+@keyframes moving {
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+@media (max-width: 700px){
+    footer{
+        bottom: unset;
+    }
+    .col{
+        flex-basis: 100%;
+
+    }
+    .col:nth-child(2),.col:nth-child(3){
+        flex-basis: 100%;
+    }
+}
+
+/*--Therapy--*/
+
+.abouttherapy{
+    width: 100%;
+    padding: 70px 0;
+}
+.paraT{
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    font-size: 20px;
+}
+.title-text p{
+    font-style: italic;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background: #f0f5f9;
+    width: 1000px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: dashed;
+    font-weight: bold;
+}
+.card p2{
+    color: #4c59e9;
+    font-size: 20px;
+}
+.contactnav{
+    background:#f0f5f9;
+    height: 80px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*--Contact--*/
+
+.contact-container{
+    height: 105vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+    background: linear-gradient(to top, rgba(116, 111, 181, 0.5)50%, rgba(116, 111, 181, 0.5)50%), url(background.png);
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: #000000;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #3498db;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid #3498db;
+    
+}
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+}
+
+.conbtn{
+    margin-top: 10px;
+    align-items:center;
+    display:flex;
+    padding: 15px 30px;
+    background-color: #26248f;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    font-size: 15px;
+}
+.conbtn:hover {
+    background-color: #bce3f6;
+}
+
+@media (max-width:800px){
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-left{
+        display: none;
+    }
+}
+
+/*--Our Team--*/
+.team-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.team-content{
+    width: 100;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+.team-content img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+
+}
+.center h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+.border{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #3498db;
+    margin-bottom: 40px;
+}
+.box{
+    padding: 16px;
+    background:transparent;
+    border-radius: 15px;
+    transition: all .83s ease;
+}
+.box h3{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.box h5{
+    margin-bottom: 8px;
+    color:#26248f;
+}
+.icons .fa-brands{
+    font-size: 20px;
+    width: 20px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background: #f0f5f9;
+    color: #26248f;
+    margin-right: 0 8px;
+    cursor: pointer;
+}
+
+.social-icons .fa-brands:hover{
+    background-color: #5755ca;
+}
+
+.icons{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 8px;
+    transition: all .38s ease;
+}
+
+.icons i:hover{
+    transform: scale(1.2);
+}
+.box:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.team-feature-box {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*--mindfulness--*/
+
+.activities{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+}
+
+.cards{
+    width: 25%;
+    background-color: rgb(255, 249, 249);
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 1px 1px 6px black;
+    display: inline-block;
+}
+
+.card-btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color:#3ab0fa;
+    color: #ffffff;
+    font-weight: 600;
+}
+.card-btn:hover {
+    box-shadow: 1px 1px 8px black;
+    cursor: pointer;
+}
+.image img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.title{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.card-desc{
+    text-align: center;
+    padding: 4px;
+    font-size: 15px;
+}
+.sec-mind{
+    width: 100%;
+    background: linear-gradient(to top, rgba(116, 111, 181, 0.5)50%, rgba(116, 111, 181, 0.5)50%), url(pexels-simon-berger.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh; 
+}
+/*--About--*/
+
+section#head2 {
+    color: #26248f;
+    text-align:center;
+    padding: 100px;
+    font-size: 50px;
+}
+section#head2 .paragraph{  
+    margin-right: 60px;
+    margin-left: 60px;
+    color: #000000;
+    text-align:center;
+    padding: 10px 0 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*--psychology--*/
+.wrapper{
+    max-width: 75%;
+    margin: auto;
+    width: 100%;
+
+}
+.wrapper > p, .wrapper > h1{
+    margin: 1.5rem 0;
+    text-align: center;
+}
+.wrapper > h1{
+    letter-spacing: 3px;
+}
+.question{
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    display: flex;
+    transition: 0.4s;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.question i{
+    font-size: 1.6rem;
+}
+.active,
+.question:hover{
+    background-color: #d5ecfe;
+}
+.pannel{
+    padding: 0 2rem 2.5rem 2rem;
+    background-color: white;
+    overflow: hidden;
+    background-color: #d5ecfe;
+    display: none;
+}
+.pannel p{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    width: 100%;
+}
+.faq{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+.faq .active{
+    border: none;
+}
+.psy-container{
+    width: 100%;
+    height: 100vh;
+    padding: 0 8%;
+}
+.psy-container h1{
+    text-align: center;
+    padding-top: 10%;
+    margin-top: 40px;
+    font-weight: 600;
+    position: relative;
+}
+.sec-psychology{
+    width: 100%;
+    background: linear-gradient(to top, rgba(116, 111, 181, 0.5)50%, rgba(116, 111, 181, 0.5)50%), url(Meditation-1.png);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;  
+}
+.psy-cards{
+    width: 25%;
+    height: 40vh;
+    background-color: rgb(255, 249, 249);
+    margin: 40px;
+    display: inline-block;
+}
+.psy-activities{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+}
+section#head3 {
+    color: #0a0a0a;
+    text-align:center;
+    padding: 40px;
+    font-size: 22px;
+}
+section#head3 .para{  
+    margin-right: 60px;
+    margin-left: 60px;
+    color: #000000;
+    text-align:center;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.card-desc i{
+    font-size: 70px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    color: #26248f;
+}
+section#head4 h1{
+    color: #26248f;
+    text-align:left;
+    padding: 10px 0 10px 60px;
+    font-size: 30px;
+}
+
+section#head4 .paragraph{  
+    margin-right: 60px;
+    margin-left: 60px;
+    color: #000000;
+    text-align:left;
+    padding: 0 0 2px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
